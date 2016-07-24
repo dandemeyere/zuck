@@ -13,7 +13,7 @@ module Zuck
         level: level,
         fields: fields.join(','),
         time_increment: 1,
-        time_range: { 'since': range.first.to_s, 'until': range.last.to_s }
+        time_range: { 'since' => range.first.to_s, 'until' => range.last.to_s }
       }
 
       ad_performances = []
